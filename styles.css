@@ -4,6 +4,7 @@ body, html{
 body{
   margin: 0px;
   background-color:#444;
+  background-image: url('https://i.pinimg.com/originals/aa/46/be/aa46beaee67d41a7e5fb027b1ffca0f1.png');
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -21,7 +22,13 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
+/*  border:10px solid red;*/
+  border-radius:10px;
+  position:absolute;
+}
+
+.eightiesDancer{
+  border:10px solid blue;
   border-radius:10px;
   position:absolute;
 }
