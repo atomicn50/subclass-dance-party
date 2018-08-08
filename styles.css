@@ -26,9 +26,10 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
-
-.eightiesDancer{
-  border:10px solid blue;
+/*.dancer:hover{
+  border:10px solid red;
   border-radius:10px;
   position:absolute;
 }
+*/
+

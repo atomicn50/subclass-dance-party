@@ -32,9 +32,22 @@ $(document).ready(function() {
 
   $('.lineUp').on('click', function(event) {
     for (var i = 0; i < window.dancers.length; i++) {
-      // window.dancers[i].$node.css({"top": "300px"});
       window.dancers[i].lineUp();
     }
+  });
+
+  $('.pairUp').on('click', function(event) {
+    for (var i = 0; i < window.dancers.length; i++) {
+      if (i % 2 === 0) {
+        window.dancers[i].$node.css({"top":"100px"});
+      } else {
+        window.dancers[i].$node.css({"top":"600px"});
+      }
+    }
+  });
+
+  $('html').on('mouseover', '.dancer', function(event) {
+    $(this).css({"border":"10px solid red"});
   });
 });
 
